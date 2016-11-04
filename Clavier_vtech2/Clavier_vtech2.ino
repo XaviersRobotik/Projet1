@@ -8,7 +8,7 @@ const int RECV_PIN = 4; // Recepteur TSP1708 sur broche 4
 IRrecv irrecv(RECV_PIN); // declaration de l'objet de reception IR
 decode_results results; // varieble pour le decodage
 
-int Code_USB;
+int Code_USB;// Bonjour
 
 int ConversionIRVersUSB(int Valeur)
 {
