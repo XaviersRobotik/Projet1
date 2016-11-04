@@ -1,4 +1,4 @@
-#include <IRremote.h>
+﻿#include <IRremote.h>
 //#include <Wire.h>
 #include "IR_VTECH_CODES.h"
 #include "UsbKeyboard.h"
@@ -12,7 +12,7 @@ int Code_USB;// Bonjour
 
 int ConversionIRVersUSB(int Valeur)
 {
-	char Caractere_decode = "";
+	char Caractere_decode = ""; //bonne chance pour telecharger GitHub les gars 
 	
 	switch(Valeur) {
        case TOUCHE_A:
